@@ -1,0 +1,320 @@
+TMRP
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/PrecompiledHeaders/MRP-Prefix-cedfcuhmthfwvzhbtevhpkrwmmvz/MRP-Prefix.pch.pch MRP/MRP-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/main.o /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/AppDelegate.o /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/MacOS/MRP normal x86_64
+cCompileAssetCatalog /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/Images.xcassets
+cCpResource MRP/en.lproj/Credits.rtf DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/Base.lproj/MainMenu.xib
+cCopyStringsFile /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/InfoPlist.strings MRP/en.lproj/InfoPlist.strings
+cProcessInfoPlistFile /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Info.plist /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/MRP-Info.plist
+cTouch /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005287A13F00000000000000AA
+t1384620351
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526E8691000000000000044C
+t1382975121
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526E869100000000000001DB
+t1382975121
+s475
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000526E8693000000000000253C
+t1382975123
+s9532
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/AppDelegate.o
+t1386883516
+s39632
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/MRP.LinkFileList
+c0000000052AA29BB000000000000010D
+t1386883515
+s269
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/main.o
+t1386883516
+s2832
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/assetcatalog_dependencies.txt
+t1386883517
+s150
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/assetcatalog_generated_info.plist
+t1386883517
+s181
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/PrecompiledHeaders/MRP-Prefix-cedfcuhmthfwvzhbtevhpkrwmmvz/MRP-Prefix.pch.pch
+t1386883516
+s13704528
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app
+t1386883515
+s102
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Info.plist
+t1386883518
+s1404
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/MacOS/MRP
+t1386883516
+s20400
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/PkgInfo
+t1386883518
+s8
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/Base.lproj/MainMenu.nib
+t1386883518
+s35066
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/Credits.rtf
+t1386883516
+s436
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1386883516
+s92
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/AppDelegate.m
+c0000000052AA29B50000000000000C9D
+t1386883509
+s3229
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/Base.lproj/MainMenu.xib
+c0000000052AA22AE000000000000829A
+t1386881710
+s33434
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/Images.xcassets
+c0000000052AA22AE0000000000000066
+t1386881710
+s102
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/MRP-Info.plist
+c0000000052AA22AE0000000000000450
+t1386881710
+s1104
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/MRP-Prefix.pch
+c0000000052AA22AE00000000000000AC
+t1386881710
+s172
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/en.lproj/Credits.rtf
+c0000000052AA22AE00000000000001B4
+t1386881710
+s436
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/en.lproj/InfoPlist.strings
+c0000000052AA22AE000000000000002D
+t1386881710
+s45
+
+N/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/main.m
+c0000000052AA22AE00000000000000F1
+t1386881710
+s241
+
+CBuild AST from /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/AppDelegate.m
+r0
+
+CBuild AST from /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc93b573b615ab841^b3975d3b615ab841^---0#1#1#--18"Check dependencies36"5E404EDD-6553-411C-B767-EF7B0345DF3B-
+
+CCompileAssetCatalog /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/Images.xcassets
+s408576316.524830
+e408576318.035792
+r1
+xCompileAssetCatalog
+x/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources
+x/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"CompileAssetCatalog DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources MRP/Images.xcassets103"CompileAssetCatalog DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources MRP/Images.xcassets3771863c615ab841^fe29093e615ab841^-180"/* com.apple.actool.compilation-results *//Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@80"file://localhost/Users/Jeff/Drexel/MET%20Lab/MRP%202014/MRP/MRP/Images.xcassets/0000000000000000^865"CompileAssetCatalog DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources MRP/Images.xcassets    cd "/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/assetcatalog_generated_info.plist --app-icon AppIcon --platform macosx --minimum-deployment-target 10.8 --target-device mac --compile /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/Images.xcassets36"EDF79EEC-48A2-4A15-911E-35916DBE4AA6-
+bC3F58308-60C7-4CFA-9457-B997B89D7992
+
+CCompileC DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/AppDelegate.o /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408576316.365242
+e408576316.432971
+r1
+xCompileC
+xDerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/AppDelegate.m
+d/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/AppDelegate.m194"CompileC DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/AppDelegate.o MRP/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler36955d3c615ab841^30d76e3c615ab841^---0#0#1#-19%DVTDocumentLocation2@77"file://localhost/Users/Jeff/Drexel/MET%20Lab/MRP%202014/MRP/MRP/AppDelegate.m0000000000000000^3232"CompileC DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/AppDelegate.o MRP/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-generated-files.hmap -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-own-target-headers.hmap -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-all-target-headers.hmap -iquote /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-project-headers.hmap -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/DerivedSources/x86_64 -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/DerivedSources -F/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug -include /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/PrecompiledHeaders/MRP-Prefix-cedfcuhmthfwvzhbtevhpkrwmmvz/MRP-Prefix.pch -MMD -MT dependencies -MF /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/AppDelegate.m -o /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/AppDelegate.o36"81573283-734D-4503-B5BE-000F6F6BECCB-
+bC3F58308-60C7-4CFA-9457-B997B89D7992
+
+CCompileC DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/main.o /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408576316.365239
+e408576316.413823
+r1
+xCompileC
+xDerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/main.o
+x/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/main.m180"CompileC DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/main.o MRP/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler14955d3c615ab841^b3f0693c615ab841^---0#0#1#-19%DVTDocumentLocation2@70"file://localhost/Users/Jeff/Drexel/MET%20Lab/MRP%202014/MRP/MRP/main.m0000000000000000^3190"CompileC DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/main.o MRP/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-generated-files.hmap -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-own-target-headers.hmap -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-all-target-headers.hmap -iquote /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-project-headers.hmap -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/DerivedSources/x86_64 -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/DerivedSources -F/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug -include /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/PrecompiledHeaders/MRP-Prefix-cedfcuhmthfwvzhbtevhpkrwmmvz/MRP-Prefix.pch -MMD -MT dependencies -MF /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/main.dia -c /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/main.m -o /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/main.o36"6F24D280-6289-457A-9909-F2B797ED0792-
+bC3F58308-60C7-4CFA-9457-B997B89D7992
+
+CCompileXIB /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/Base.lproj/MainMenu.xib
+s408576316.524841
+e408576318.171564
+r1
+xCompileXIB
+x/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/Base.lproj/MainMenu.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compiling /Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/Base.lproj/MainMenu.xib38"CompileXIB MRP/Base.lproj/MainMenu.xib8273863c615ab841^e1eb2b3e615ab841^---0#0#1#-19%DVTDocumentLocation2@87"file://localhost/Users/Jeff/Drexel/MET%20Lab/MRP%202014/MRP/MRP/Base.lproj/MainMenu.xib0000000000000000^549"CompileXIB MRP/Base.lproj/MainMenu.xib    cd "/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.8 --output-format human-readable-text --compile /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/Base.lproj/MainMenu.nib /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/Base.lproj/MainMenu.xib36"864CBBCE-DE1F-4617-A247-FD7D80D6E973-
+bC3F58308-60C7-4CFA-9457-B997B89D7992
+
+CCopyStringsFile /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/InfoPlist.strings MRP/en.lproj/InfoPlist.strings
+s408576316.524864
+e408576316.655397
+r1
+xCopyStringsFile
+x/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/InfoPlist.strings
+xMRP/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Copy MRP/en.lproj/InfoPlist.strings137"CopyStringsFile DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/InfoPlist.strings MRP/en.lproj/InfoPlist.strings2e73863c615ab841^8ec8a73c615ab841^---0#0#1#-19%DVTDocumentLocation2@90"file://localhost/Users/Jeff/Drexel/MET%20Lab/MRP%202014/MRP/MRP/en.lproj/InfoPlist.strings0000000000000000^426"CopyStringsFile DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/InfoPlist.strings MRP/en.lproj/InfoPlist.strings    cd "/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj -- MRP/en.lproj/InfoPlist.strings36"F229EEE9-C153-4A13-8FE3-352E44DF19E2-
+bC3F58308-60C7-4CFA-9457-B997B89D7992
+
+CCpResource MRP/en.lproj/Credits.rtf DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/Credits.rtf
+s408576316.524832
+e408576316.529901
+r1
+xCpResource
+xMRP/en.lproj/Credits.rtf
+xDerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/Credits.rtf120"CpResource MRP/en.lproj/Credits.rtf DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/Credits.rtf6073863c615ab841^1ea8873c615ab841^---0#0#1#-19%DVTDocumentLocation2@144"file://localhost/Users/Jeff/Drexel/MET%20Lab/MRP%202014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/Credits.rtf003880b8deffdf42^464"CpResource MRP/en.lproj/Credits.rtf DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj/Credits.rtf    cd "/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/en.lproj/Credits.rtf /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Resources/en.lproj36"98E33DDB-2822-43B9-8B9C-0372F6E466A1-
+bC3F58308-60C7-4CFA-9457-B997B89D7992
+
+CLd /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/MacOS/MRP normal x86_64
+s408576316.441597
+e408576316.494066
+r1
+xLd
+x/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/MacOS/MRP
+xnormal
+xx86_64
+d/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/MRP.LinkFileList
+d/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/AppDelegate.o
+d/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Link /Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/MacOS/MRP80"Ld DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/MacOS/MRP normal x86_649e24713c615ab841^187c7e3c615ab841^---0#0#1#--1073"Ld DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/MacOS/MRP normal x86_64    cd "/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug -F/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug -filelist /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/MRP.LinkFileList -mmacosx-version-min=10.8 -fobjc-arc -fobjc-link-runtime -framework Cocoa -Xlinker -dependency_info -Xlinker /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/Objects-normal/x86_64/MRP_dependency_info.dat -o /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/MacOS/MRP36"C6426905-0F3F-4267-9F97-683342B70B91-
+bC3F58308-60C7-4CFA-9457-B997B89D7992
+
+CProcessInfoPlistFile /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Info.plist /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/MRP-Info.plist
+s408576318.179912
+e408576318.182753
+r1
+xProcessInfoPlistFile
+x/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Info.plist
+x/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/MRP-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Process /Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/MRP-Info.plist104"ProcessInfoPlistFile DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Info.plist MRP/MRP-Info.plistc11b2e3e615ab841^7ec92e3e615ab841^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/Jeff/Drexel/MET%20Lab/MRP%202014/MRP/MRP/MRP-Info.plist0000000000000000^669"ProcessInfoPlistFile DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Info.plist MRP/MRP-Info.plist    cd "/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP"    builtin-infoPlistUtility /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/MRP-Info.plist -genpkginfo /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/PkgInfo -expandbuildsettings -platform macosx -additionalcontentfile /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/assetcatalog_generated_info.plist -o /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app/Contents/Info.plist36"F1675CC5-88D8-4912-BCFB-990550DE9F9A-
+bC3F58308-60C7-4CFA-9457-B997B89D7992
+
+CProcessPCH /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/PrecompiledHeaders/MRP-Prefix-cedfcuhmthfwvzhbtevhpkrwmmvz/MRP-Prefix.pch.pch MRP/MRP-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s408576315.368775
+e408576316.356861
+r1
+xProcessPCH
+x/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Intermediates/PrecompiledHeaders/MRP-Prefix-cedfcuhmthfwvzhbtevhpkrwmmvz/MRP-Prefix.pch.pch
+xMRP/MRP-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/MRP-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Precompile MRP/MRP-Prefix.pch213"ProcessPCH DerivedData/MRP/Build/Intermediates/PrecompiledHeaders/MRP-Prefix-cedfcuhmthfwvzhbtevhpkrwmmvz/MRP-Prefix.pch.pch MRP/MRP-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb6825e3b615ab841^755a5b3c615ab841^---0#0#1#-19%DVTDocumentLocation2@78"file://localhost/Users/Jeff/Drexel/MET%20Lab/MRP%202014/MRP/MRP/MRP-Prefix.pch0000000000000000^3142"ProcessPCH DerivedData/MRP/Build/Intermediates/PrecompiledHeaders/MRP-Prefix-cedfcuhmthfwvzhbtevhpkrwmmvz/MRP-Prefix.pch.pch MRP/MRP-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-generated-files.hmap -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-own-target-headers.hmap -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-all-target-headers.hmap -iquote /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/MRP-project-headers.hmap -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/DerivedSources/x86_64 -I/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/MRP.build/Debug/MRP.build/DerivedSources -F/Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug --serialize-diagnostics /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/PrecompiledHeaders/MRP-Prefix-cedfcuhmthfwvzhbtevhpkrwmmvz/MRP-Prefix.pch.dia -MMD -MT dependencies -MF /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/PrecompiledHeaders/MRP-Prefix-cedfcuhmthfwvzhbtevhpkrwmmvz/MRP-Prefix.pch.d -c /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/MRP/MRP-Prefix.pch -o /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Intermediates/PrecompiledHeaders/MRP-Prefix-cedfcuhmthfwvzhbtevhpkrwmmvz/MRP-Prefix.pch.pch36"4ABCF4F7-77E5-488A-9C28-BB914A754FBE-
+bC3F58308-60C7-4CFA-9457-B997B89D7992
+
+CProcessPCH /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Index/PrecompiledHeaders/MRP-Prefix-bxqdhrffjpxppnaudzajammrbvke_ast/MRP-Prefix.pch.pch MRP/MRP-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app
+s408576318.191138
+e408576318.196503
+r1
+xTouch
+x/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Touch /Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app50"Touch DerivedData/MRP/Build/Products/Debug/MRP.app09f9303e615ab841^594e323e615ab841^---0#0#1#--209"Touch DerivedData/MRP/Build/Products/Debug/MRP.app    cd "/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP"    /usr/bin/touch -c /Users/Jeff/Drexel/MET\ Lab/MRP\ 2014/MRP/DerivedData/MRP/Build/Products/Debug/MRP.app36"0E2BA7A5-35E2-4A28-918E-560488005044-
+bC3F58308-60C7-4CFA-9457-B997B89D7992
+
