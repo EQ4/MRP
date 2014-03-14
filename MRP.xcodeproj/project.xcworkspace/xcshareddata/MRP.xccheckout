@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F9029CA5-2B63-4673-B77C-4DCBB5201DFD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MRP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4F591204-F152-4512-9831-D2482A86D21B</key>
+		<string>https://github.com/JeffGregorio/MRP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MRP.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4F591204-F152-4512-9831-D2482A86D21B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/JeffGregorio/MRP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4F591204-F152-4512-9831-D2482A86D21B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4F591204-F152-4512-9831-D2482A86D21B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MRP</string>
+		</dict>
+	</array>
+</dict>
+</plist>

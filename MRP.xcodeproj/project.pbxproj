@@ -13,6 +13,8 @@
 		1F408DF0185BAEA1001FFE13 /* VVBasics.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F408DEA185BAE96001FFE13 /* VVBasics.framework */; };
 		1F408DF1185BAEA1001FFE13 /* VVMIDI.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F408DEB185BAE96001FFE13 /* VVMIDI.framework */; };
 		1F408DF2185BAEA1001FFE13 /* VVOSC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F408DEC185BAE96001FFE13 /* VVOSC.framework */; };
+		1F767AF618A014F50062EB15 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F767AF418A014F50062EB15 /* libboost_system.dylib */; };
+		1F767AF718A014F50062EB15 /* libboost_thread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F767AF518A014F50062EB15 /* libboost_thread.dylib */; };
 		1F843D48185A5A2E0071C3F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F843D47185A5A2E0071C3F7 /* Cocoa.framework */; };
 		1F843D52185A5A2E0071C3F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F843D50185A5A2E0071C3F7 /* InfoPlist.strings */; };
 		1F843D54185A5A2E0071C3F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F843D53185A5A2E0071C3F7 /* main.m */; };
@@ -24,13 +26,51 @@
 		1F843D68185A5A2E0071C3F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F843D47185A5A2E0071C3F7 /* Cocoa.framework */; };
 		1F843D70185A5A2E0071C3F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F843D6E185A5A2E0071C3F7 /* InfoPlist.strings */; };
 		1F843D72185A5A2E0071C3F7 /* MRPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F843D71185A5A2E0071C3F7 /* MRPTests.m */; };
-		1FBD05B7185EC7D900C4E775 /* AudioOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD05B6185EC7D900C4E775 /* AudioOutput.m */; };
+		1F98ADD918CE681700A67362 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F98ADD818CE681700A67362 /* PreferencePanes.framework */; };
+		1F98ADDD18CE69BC00A67362 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F98ADDC18CE69BC00A67362 /* Preferences.xib */; };
 		1FBD05BA185ED33700C4E775 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBD05B9185ED33600C4E775 /* AVFoundation.framework */; };
 		1FBD05BC185ED54E00C4E775 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBD05BB185ED54E00C4E775 /* AudioToolbox.framework */; };
 		1FBD05BD185ED56E00C4E775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F843D4C185A5A2E0071C3F7 /* Foundation.framework */; };
 		1FBD05BF185EE08D00C4E775 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBD05BE185EE08D00C4E775 /* AudioUnit.framework */; };
-		1FBD05D8185F82A000C4E775 /* pianobar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD05D6185F82A000C4E775 /* pianobar.cpp */; };
 		1FBD05DB185F857100C4E775 /* libportaudio.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBD05DA185F857100C4E775 /* libportaudio.2.0.0.dylib */; };
+		1FE8123618A1C533005C635E /* RtMidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE811F718A1C533005C635E /* RtMidi.cpp */; };
+		1FE8123718A1C533005C635E /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE811FA18A1C533005C635E /* tinystr.cpp */; };
+		1FE8123818A1C533005C635E /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE811FC18A1C533005C635E /* tinyxml.cpp */; };
+		1FE8123918A1C533005C635E /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE811FE18A1C533005C635E /* tinyxmlerror.cpp */; };
+		1FE8123A18A1C533005C635E /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE811FF18A1C533005C635E /* tinyxmlparser.cpp */; };
+		1FE8123B18A1C533005C635E /* CustomOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8120218A1C533005C635E /* CustomOpenGLView.mm */; };
+		1FE8123C18A1C533005C635E /* KeyboardDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8120318A1C533005C635E /* KeyboardDisplay.cpp */; };
+		1FE8123D18A1C533005C635E /* KeyIdleDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8120518A1C533005C635E /* KeyIdleDetector.cpp */; };
+		1FE8123E18A1C533005C635E /* KeyPositionGraphDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8120718A1C533005C635E /* KeyPositionGraphDisplay.cpp */; };
+		1FE8123F18A1C533005C635E /* KeyPositionTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8120918A1C533005C635E /* KeyPositionTracker.cpp */; };
+		1FE8124018A1C533005C635E /* KeyTouchFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8120B18A1C533005C635E /* KeyTouchFrame.cpp */; };
+		1FE8124118A1C533005C635E /* Mapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8120E18A1C533005C635E /* Mapping.cpp */; };
+		1FE8124218A1C533005C635E /* MIDIKeyPositionMapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8121018A1C533005C635E /* MIDIKeyPositionMapping.cpp */; };
+		1FE8124318A1C533005C635E /* MRPMapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8121218A1C533005C635E /* MRPMapping.cpp */; };
+		1FE8124418A1C533005C635E /* TouchkeyVibratoMapping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8121418A1C533005C635E /* TouchkeyVibratoMapping.cpp */; };
+		1FE8124518A1C533005C635E /* MidiInputController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8121618A1C533005C635E /* MidiInputController.cpp */; };
+		1FE8124618A1C533005C635E /* MidiOutputController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8121818A1C533005C635E /* MidiOutputController.cpp */; };
+		1FE8124718A1C533005C635E /* Osc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8121B18A1C533005C635E /* Osc.cpp */; };
+		1FE8124818A1C533005C635E /* PianoKey.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8121D18A1C533005C635E /* PianoKey.cpp */; };
+		1FE8124918A1C533005C635E /* PianoKeyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8121F18A1C533005C635E /* PianoKeyboard.cpp */; };
+		1FE8124A18A1C533005C635E /* PianoKeyCalibrator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8122118A1C533005C635E /* PianoKeyCalibrator.cpp */; };
+		1FE8124B18A1C533005C635E /* PianoPedal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8122318A1C533005C635E /* PianoPedal.cpp */; };
+		1FE8124C18A1C533005C635E /* RawSensorDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8122618A1C533005C635E /* RawSensorDisplay.cpp */; };
+		1FE8124D18A1C533005C635E /* TimestampSynchronizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8122818A1C533005C635E /* TimestampSynchronizer.cpp */; };
+		1FE8124E18A1C533005C635E /* TouchkeyDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8122A18A1C533005C635E /* TouchkeyDevice.cpp */; };
+		1FE8124F18A1C533005C635E /* IIRFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8122E18A1C533005C635E /* IIRFilter.cpp */; };
+		1FE8125018A1C533005C635E /* Scheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8123118A1C533005C635E /* Scheduler.cpp */; };
+		1FE8125118A1C533005C635E /* Trigger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8123318A1C533005C635E /* Trigger.cpp */; };
+		1FE8125718A1C558005C635E /* AudioOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8125418A1C558005C635E /* AudioOutput.m */; };
+		1FE8125818A1C558005C635E /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8125618A1C558005C635E /* Note.m */; };
+		1FE8125F18A1C578005C635E /* DrawOSC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8125B18A1C578005C635E /* DrawOSC.m */; };
+		1FE8126018A1C578005C635E /* PianoRollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE8125D18A1C578005C635E /* PianoRollView.m */; };
+		1FE8126118A1C578005C635E /* PianoRollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE8125E18A1C578005C635E /* PianoRollView.xib */; };
+		1FE8126318A1C744005C635E /* liblo.7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE8126218A1C744005C635E /* liblo.7.dylib */; };
+		1FE8126518A1C771005C635E /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE8126418A1C771005C635E /* CoreMIDI.framework */; };
+		1FE8126718A1C785005C635E /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE8126618A1C785005C635E /* CoreServices.framework */; };
+		1FE8126918A1C7B9005C635E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE8126818A1C7B9005C635E /* OpenGL.framework */; };
+		1FE8126B18A1C7DD005C635E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE8126A18A1C7DD005C635E /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +102,8 @@
 		1F408DEA185BAE96001FFE13 /* VVBasics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVBasics.framework; path = "../../../../Computering/FrameworkSources/vvopensource-master/build@rpath/VVBasics.framework"; sourceTree = "<group>"; };
 		1F408DEB185BAE96001FFE13 /* VVMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVMIDI.framework; path = "../../../../Computering/FrameworkSources/vvopensource-master/build@rpath/VVMIDI.framework"; sourceTree = "<group>"; };
 		1F408DEC185BAE96001FFE13 /* VVOSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VVOSC.framework; path = "../../../../Computering/FrameworkSources/vvopensource-master/build@rpath/VVOSC.framework"; sourceTree = "<group>"; };
+		1F767AF418A014F50062EB15 /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = ../../../../../../usr/local/lib/libboost_system.dylib; sourceTree = "<group>"; };
+		1F767AF518A014F50062EB15 /* libboost_thread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_thread.dylib; path = ../../../../../../usr/local/lib/libboost_thread.dylib; sourceTree = "<group>"; };
 		1F843D44185A5A2E0071C3F7 /* MRP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F843D47185A5A2E0071C3F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1F843D4A185A5A2E0071C3F7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -81,14 +123,86 @@
 		1F843D6D185A5A2E0071C3F7 /* MRPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MRPTests-Info.plist"; sourceTree = "<group>"; };
 		1F843D6F185A5A2E0071C3F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F843D71185A5A2E0071C3F7 /* MRPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRPTests.m; sourceTree = "<group>"; };
-		1FBD05B5185EC7D900C4E775 /* AudioOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioOutput.h; sourceTree = "<group>"; };
-		1FBD05B6185EC7D900C4E775 /* AudioOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioOutput.m; sourceTree = "<group>"; };
+		1F98ADD818CE681700A67362 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		1F98ADDC18CE69BC00A67362 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
 		1FBD05B9185ED33600C4E775 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		1FBD05BB185ED54E00C4E775 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		1FBD05BE185EE08D00C4E775 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
-		1FBD05D6185F82A000C4E775 /* pianobar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pianobar.cpp; path = CPP/pianobar.cpp; sourceTree = "<group>"; };
-		1FBD05D7185F82A000C4E775 /* pianobar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pianobar.h; path = CPP/pianobar.h; sourceTree = "<group>"; };
 		1FBD05DA185F857100C4E775 /* libportaudio.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libportaudio.2.0.0.dylib; path = ../../../../../../usr/local/lib/libportaudio.2.0.0.dylib; sourceTree = "<group>"; };
+		1FE811F618A1C533005C635E /* RtError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtError.h; sourceTree = "<group>"; };
+		1FE811F718A1C533005C635E /* RtMidi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtMidi.cpp; sourceTree = "<group>"; };
+		1FE811F818A1C533005C635E /* RtMidi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtMidi.h; sourceTree = "<group>"; };
+		1FE811FA18A1C533005C635E /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		1FE811FB18A1C533005C635E /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
+		1FE811FC18A1C533005C635E /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		1FE811FD18A1C533005C635E /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		1FE811FE18A1C533005C635E /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		1FE811FF18A1C533005C635E /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		1FE8120118A1C533005C635E /* CustomOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomOpenGLView.h; sourceTree = "<group>"; };
+		1FE8120218A1C533005C635E /* CustomOpenGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CustomOpenGLView.mm; sourceTree = "<group>"; };
+		1FE8120318A1C533005C635E /* KeyboardDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyboardDisplay.cpp; sourceTree = "<group>"; };
+		1FE8120418A1C533005C635E /* KeyboardDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardDisplay.h; sourceTree = "<group>"; };
+		1FE8120518A1C533005C635E /* KeyIdleDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyIdleDetector.cpp; sourceTree = "<group>"; };
+		1FE8120618A1C533005C635E /* KeyIdleDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyIdleDetector.h; sourceTree = "<group>"; };
+		1FE8120718A1C533005C635E /* KeyPositionGraphDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyPositionGraphDisplay.cpp; sourceTree = "<group>"; };
+		1FE8120818A1C533005C635E /* KeyPositionGraphDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyPositionGraphDisplay.h; sourceTree = "<group>"; };
+		1FE8120918A1C533005C635E /* KeyPositionTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyPositionTracker.cpp; sourceTree = "<group>"; };
+		1FE8120A18A1C533005C635E /* KeyPositionTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyPositionTracker.h; sourceTree = "<group>"; };
+		1FE8120B18A1C533005C635E /* KeyTouchFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyTouchFrame.cpp; sourceTree = "<group>"; };
+		1FE8120C18A1C533005C635E /* KeyTouchFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyTouchFrame.h; sourceTree = "<group>"; };
+		1FE8120E18A1C533005C635E /* Mapping.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mapping.cpp; sourceTree = "<group>"; };
+		1FE8120F18A1C533005C635E /* Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapping.h; sourceTree = "<group>"; };
+		1FE8121018A1C533005C635E /* MIDIKeyPositionMapping.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MIDIKeyPositionMapping.cpp; sourceTree = "<group>"; };
+		1FE8121118A1C533005C635E /* MIDIKeyPositionMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIKeyPositionMapping.h; sourceTree = "<group>"; };
+		1FE8121218A1C533005C635E /* MRPMapping.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MRPMapping.cpp; sourceTree = "<group>"; };
+		1FE8121318A1C533005C635E /* MRPMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRPMapping.h; sourceTree = "<group>"; };
+		1FE8121418A1C533005C635E /* TouchkeyVibratoMapping.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TouchkeyVibratoMapping.cpp; sourceTree = "<group>"; };
+		1FE8121518A1C533005C635E /* TouchkeyVibratoMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchkeyVibratoMapping.h; sourceTree = "<group>"; };
+		1FE8121618A1C533005C635E /* MidiInputController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiInputController.cpp; sourceTree = "<group>"; };
+		1FE8121718A1C533005C635E /* MidiInputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiInputController.h; sourceTree = "<group>"; };
+		1FE8121818A1C533005C635E /* MidiOutputController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MidiOutputController.cpp; sourceTree = "<group>"; };
+		1FE8121918A1C533005C635E /* MidiOutputController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiOutputController.h; sourceTree = "<group>"; };
+		1FE8121A18A1C533005C635E /* OpenGLDisplayBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLDisplayBase.h; sourceTree = "<group>"; };
+		1FE8121B18A1C533005C635E /* Osc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Osc.cpp; sourceTree = "<group>"; };
+		1FE8121C18A1C533005C635E /* Osc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Osc.h; sourceTree = "<group>"; };
+		1FE8121D18A1C533005C635E /* PianoKey.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PianoKey.cpp; sourceTree = "<group>"; };
+		1FE8121E18A1C533005C635E /* PianoKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoKey.h; sourceTree = "<group>"; };
+		1FE8121F18A1C533005C635E /* PianoKeyboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PianoKeyboard.cpp; sourceTree = "<group>"; };
+		1FE8122018A1C533005C635E /* PianoKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoKeyboard.h; sourceTree = "<group>"; };
+		1FE8122118A1C533005C635E /* PianoKeyCalibrator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PianoKeyCalibrator.cpp; sourceTree = "<group>"; };
+		1FE8122218A1C533005C635E /* PianoKeyCalibrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoKeyCalibrator.h; sourceTree = "<group>"; };
+		1FE8122318A1C533005C635E /* PianoPedal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PianoPedal.cpp; sourceTree = "<group>"; };
+		1FE8122418A1C533005C635E /* PianoPedal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoPedal.h; sourceTree = "<group>"; };
+		1FE8122518A1C533005C635E /* PianoTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoTypes.h; sourceTree = "<group>"; };
+		1FE8122618A1C533005C635E /* RawSensorDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RawSensorDisplay.cpp; sourceTree = "<group>"; };
+		1FE8122718A1C533005C635E /* RawSensorDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RawSensorDisplay.h; sourceTree = "<group>"; };
+		1FE8122818A1C533005C635E /* TimestampSynchronizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimestampSynchronizer.cpp; sourceTree = "<group>"; };
+		1FE8122918A1C533005C635E /* TimestampSynchronizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimestampSynchronizer.h; sourceTree = "<group>"; };
+		1FE8122A18A1C533005C635E /* TouchkeyDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TouchkeyDevice.cpp; sourceTree = "<group>"; };
+		1FE8122B18A1C533005C635E /* TouchkeyDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchkeyDevice.h; sourceTree = "<group>"; };
+		1FE8122D18A1C533005C635E /* Accumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accumulator.h; sourceTree = "<group>"; };
+		1FE8122E18A1C533005C635E /* IIRFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IIRFilter.cpp; sourceTree = "<group>"; };
+		1FE8122F18A1C533005C635E /* IIRFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIRFilter.h; sourceTree = "<group>"; };
+		1FE8123018A1C533005C635E /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		1FE8123118A1C533005C635E /* Scheduler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Scheduler.cpp; sourceTree = "<group>"; };
+		1FE8123218A1C533005C635E /* Scheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scheduler.h; sourceTree = "<group>"; };
+		1FE8123318A1C533005C635E /* Trigger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Trigger.cpp; sourceTree = "<group>"; };
+		1FE8123418A1C533005C635E /* Trigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trigger.h; sourceTree = "<group>"; };
+		1FE8123518A1C533005C635E /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		1FE8125318A1C558005C635E /* AudioOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioOutput.h; sourceTree = "<group>"; };
+		1FE8125418A1C558005C635E /* AudioOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioOutput.m; sourceTree = "<group>"; };
+		1FE8125518A1C558005C635E /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		1FE8125618A1C558005C635E /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		1FE8125A18A1C578005C635E /* DrawOSC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawOSC.h; sourceTree = "<group>"; };
+		1FE8125B18A1C578005C635E /* DrawOSC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawOSC.m; sourceTree = "<group>"; };
+		1FE8125C18A1C578005C635E /* PianoRollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PianoRollView.h; sourceTree = "<group>"; };
+		1FE8125D18A1C578005C635E /* PianoRollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PianoRollView.m; sourceTree = "<group>"; };
+		1FE8125E18A1C578005C635E /* PianoRollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PianoRollView.xib; sourceTree = "<group>"; };
+		1FE8126218A1C744005C635E /* liblo.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblo.7.dylib; path = ../../../../../../usr/local/lib/liblo.7.dylib; sourceTree = "<group>"; };
+		1FE8126418A1C771005C635E /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		1FE8126618A1C785005C635E /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		1FE8126818A1C7B9005C635E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1FE8126A18A1C7DD005C635E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +210,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FBD05DB185F857100C4E775 /* libportaudio.2.0.0.dylib in Frameworks */,
+				1F98ADD918CE681700A67362 /* PreferencePanes.framework in Frameworks */,
+				1FE8126B18A1C7DD005C635E /* CoreAudio.framework in Frameworks */,
+				1FE8126918A1C7B9005C635E /* OpenGL.framework in Frameworks */,
+				1FE8126718A1C785005C635E /* CoreServices.framework in Frameworks */,
+				1FE8126518A1C771005C635E /* CoreMIDI.framework in Frameworks */,
+				1F843D48185A5A2E0071C3F7 /* Cocoa.framework in Frameworks */,
+				1FE8126318A1C744005C635E /* liblo.7.dylib in Frameworks */,
+				1F767AF618A014F50062EB15 /* libboost_system.dylib in Frameworks */,
+				1F767AF718A014F50062EB15 /* libboost_thread.dylib in Frameworks */,
 				1FBD05BF185EE08D00C4E775 /* AudioUnit.framework in Frameworks */,
 				1FBD05BD185ED56E00C4E775 /* Foundation.framework in Frameworks */,
 				1FBD05BC185ED54E00C4E775 /* AudioToolbox.framework in Frameworks */,
@@ -104,7 +226,7 @@
 				1F408DED185BAE96001FFE13 /* VVBasics.framework in Frameworks */,
 				1F408DEE185BAE96001FFE13 /* VVMIDI.framework in Frameworks */,
 				1F408DEF185BAE96001FFE13 /* VVOSC.framework in Frameworks */,
-				1F843D48185A5A2E0071C3F7 /* Cocoa.framework in Frameworks */,
+				1FBD05DB185F857100C4E775 /* libportaudio.2.0.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +245,11 @@
 		1F843D3B185A5A2E0071C3F7 = {
 			isa = PBXGroup;
 			children = (
-				1FBD05D9185F82A800C4E775 /* C++ */,
-				1FBD05B8185EC7E700C4E775 /* Classes */,
+				1FE8125918A1C578005C635E /* GUI */,
+				1FE8125218A1C558005C635E /* Audio */,
+				1FE811F518A1C533005C635E /* RtMidi */,
+				1FE811F918A1C533005C635E /* TinyXML */,
+				1FE8120018A1C533005C635E /* Touchkeys */,
 				1F843D4D185A5A2E0071C3F7 /* App */,
 				1F843D6B185A5A2E0071C3F7 /* MRPTests */,
 				1F843D46185A5A2E0071C3F7 /* Frameworks */,
@@ -144,6 +269,14 @@
 		1F843D46185A5A2E0071C3F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F98ADD818CE681700A67362 /* PreferencePanes.framework */,
+				1FE8126A18A1C7DD005C635E /* CoreAudio.framework */,
+				1FE8126818A1C7B9005C635E /* OpenGL.framework */,
+				1FE8126618A1C785005C635E /* CoreServices.framework */,
+				1FE8126418A1C771005C635E /* CoreMIDI.framework */,
+				1FE8126218A1C744005C635E /* liblo.7.dylib */,
+				1F767AF418A014F50062EB15 /* libboost_system.dylib */,
+				1F767AF518A014F50062EB15 /* libboost_thread.dylib */,
 				1FBD05DA185F857100C4E775 /* libportaudio.2.0.0.dylib */,
 				1FBD05BE185EE08D00C4E775 /* AudioUnit.framework */,
 				1FBD05BB185ED54E00C4E775 /* AudioToolbox.framework */,
@@ -174,6 +307,7 @@
 				1F843D59185A5A2E0071C3F7 /* AppDelegate.h */,
 				1F843D5A185A5A2E0071C3F7 /* AppDelegate.mm */,
 				1F843D5C185A5A2E0071C3F7 /* MainMenu.xib */,
+				1F98ADDC18CE69BC00A67362 /* Preferences.xib */,
 				1F843D5F185A5A2E0071C3F7 /* Images.xcassets */,
 				1F843D4E185A5A2E0071C3F7 /* Supporting Files */,
 			);
@@ -211,22 +345,124 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1FBD05B8185EC7E700C4E775 /* Classes */ = {
+		1FE811F518A1C533005C635E /* RtMidi */ = {
 			isa = PBXGroup;
 			children = (
-				1FBD05B5185EC7D900C4E775 /* AudioOutput.h */,
-				1FBD05B6185EC7D900C4E775 /* AudioOutput.m */,
+				1FE811F618A1C533005C635E /* RtError.h */,
+				1FE811F718A1C533005C635E /* RtMidi.cpp */,
+				1FE811F818A1C533005C635E /* RtMidi.h */,
 			);
-			name = Classes;
+			path = RtMidi;
 			sourceTree = "<group>";
 		};
-		1FBD05D9185F82A800C4E775 /* C++ */ = {
+		1FE811F918A1C533005C635E /* TinyXML */ = {
 			isa = PBXGroup;
 			children = (
-				1FBD05D6185F82A000C4E775 /* pianobar.cpp */,
-				1FBD05D7185F82A000C4E775 /* pianobar.h */,
+				1FE811FA18A1C533005C635E /* tinystr.cpp */,
+				1FE811FB18A1C533005C635E /* tinystr.h */,
+				1FE811FC18A1C533005C635E /* tinyxml.cpp */,
+				1FE811FD18A1C533005C635E /* tinyxml.h */,
+				1FE811FE18A1C533005C635E /* tinyxmlerror.cpp */,
+				1FE811FF18A1C533005C635E /* tinyxmlparser.cpp */,
 			);
-			name = "C++";
+			path = TinyXML;
+			sourceTree = "<group>";
+		};
+		1FE8120018A1C533005C635E /* Touchkeys */ = {
+			isa = PBXGroup;
+			children = (
+				1FE8120118A1C533005C635E /* CustomOpenGLView.h */,
+				1FE8120218A1C533005C635E /* CustomOpenGLView.mm */,
+				1FE8120318A1C533005C635E /* KeyboardDisplay.cpp */,
+				1FE8120418A1C533005C635E /* KeyboardDisplay.h */,
+				1FE8120518A1C533005C635E /* KeyIdleDetector.cpp */,
+				1FE8120618A1C533005C635E /* KeyIdleDetector.h */,
+				1FE8120718A1C533005C635E /* KeyPositionGraphDisplay.cpp */,
+				1FE8120818A1C533005C635E /* KeyPositionGraphDisplay.h */,
+				1FE8120918A1C533005C635E /* KeyPositionTracker.cpp */,
+				1FE8120A18A1C533005C635E /* KeyPositionTracker.h */,
+				1FE8120B18A1C533005C635E /* KeyTouchFrame.cpp */,
+				1FE8120C18A1C533005C635E /* KeyTouchFrame.h */,
+				1FE8120D18A1C533005C635E /* Mappings */,
+				1FE8121618A1C533005C635E /* MidiInputController.cpp */,
+				1FE8121718A1C533005C635E /* MidiInputController.h */,
+				1FE8121818A1C533005C635E /* MidiOutputController.cpp */,
+				1FE8121918A1C533005C635E /* MidiOutputController.h */,
+				1FE8121A18A1C533005C635E /* OpenGLDisplayBase.h */,
+				1FE8121B18A1C533005C635E /* Osc.cpp */,
+				1FE8121C18A1C533005C635E /* Osc.h */,
+				1FE8121D18A1C533005C635E /* PianoKey.cpp */,
+				1FE8121E18A1C533005C635E /* PianoKey.h */,
+				1FE8121F18A1C533005C635E /* PianoKeyboard.cpp */,
+				1FE8122018A1C533005C635E /* PianoKeyboard.h */,
+				1FE8122118A1C533005C635E /* PianoKeyCalibrator.cpp */,
+				1FE8122218A1C533005C635E /* PianoKeyCalibrator.h */,
+				1FE8122318A1C533005C635E /* PianoPedal.cpp */,
+				1FE8122418A1C533005C635E /* PianoPedal.h */,
+				1FE8122518A1C533005C635E /* PianoTypes.h */,
+				1FE8122618A1C533005C635E /* RawSensorDisplay.cpp */,
+				1FE8122718A1C533005C635E /* RawSensorDisplay.h */,
+				1FE8122818A1C533005C635E /* TimestampSynchronizer.cpp */,
+				1FE8122918A1C533005C635E /* TimestampSynchronizer.h */,
+				1FE8122A18A1C533005C635E /* TouchkeyDevice.cpp */,
+				1FE8122B18A1C533005C635E /* TouchkeyDevice.h */,
+				1FE8122C18A1C533005C635E /* Utility */,
+			);
+			path = Touchkeys;
+			sourceTree = "<group>";
+		};
+		1FE8120D18A1C533005C635E /* Mappings */ = {
+			isa = PBXGroup;
+			children = (
+				1FE8120E18A1C533005C635E /* Mapping.cpp */,
+				1FE8120F18A1C533005C635E /* Mapping.h */,
+				1FE8121018A1C533005C635E /* MIDIKeyPositionMapping.cpp */,
+				1FE8121118A1C533005C635E /* MIDIKeyPositionMapping.h */,
+				1FE8121218A1C533005C635E /* MRPMapping.cpp */,
+				1FE8121318A1C533005C635E /* MRPMapping.h */,
+				1FE8121418A1C533005C635E /* TouchkeyVibratoMapping.cpp */,
+				1FE8121518A1C533005C635E /* TouchkeyVibratoMapping.h */,
+			);
+			path = Mappings;
+			sourceTree = "<group>";
+		};
+		1FE8122C18A1C533005C635E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1FE8122D18A1C533005C635E /* Accumulator.h */,
+				1FE8122E18A1C533005C635E /* IIRFilter.cpp */,
+				1FE8122F18A1C533005C635E /* IIRFilter.h */,
+				1FE8123018A1C533005C635E /* Node.h */,
+				1FE8123118A1C533005C635E /* Scheduler.cpp */,
+				1FE8123218A1C533005C635E /* Scheduler.h */,
+				1FE8123318A1C533005C635E /* Trigger.cpp */,
+				1FE8123418A1C533005C635E /* Trigger.h */,
+				1FE8123518A1C533005C635E /* Types.h */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1FE8125218A1C558005C635E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1FE8125318A1C558005C635E /* AudioOutput.h */,
+				1FE8125418A1C558005C635E /* AudioOutput.m */,
+				1FE8125518A1C558005C635E /* Note.h */,
+				1FE8125618A1C558005C635E /* Note.m */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		1FE8125918A1C578005C635E /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				1FE8125A18A1C578005C635E /* DrawOSC.h */,
+				1FE8125B18A1C578005C635E /* DrawOSC.m */,
+				1FE8125C18A1C578005C635E /* PianoRollView.h */,
+				1FE8125D18A1C578005C635E /* PianoRollView.m */,
+				1FE8125E18A1C578005C635E /* PianoRollView.xib */,
+			);
+			path = GUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,9 +542,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE8126118A1C578005C635E /* PianoRollView.xib in Resources */,
 				1F843D52185A5A2E0071C3F7 /* InfoPlist.strings in Resources */,
 				1F843D60185A5A2E0071C3F7 /* Images.xcassets in Resources */,
 				1F843D58185A5A2E0071C3F7 /* Credits.rtf in Resources */,
+				1F98ADDD18CE69BC00A67362 /* Preferences.xib in Resources */,
 				1F843D5E185A5A2E0071C3F7 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,10 +566,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE8123918A1C533005C635E /* tinyxmlerror.cpp in Sources */,
+				1FE8124A18A1C533005C635E /* PianoKeyCalibrator.cpp in Sources */,
+				1FE8123F18A1C533005C635E /* KeyPositionTracker.cpp in Sources */,
+				1FE8126018A1C578005C635E /* PianoRollView.m in Sources */,
+				1FE8124218A1C533005C635E /* MIDIKeyPositionMapping.cpp in Sources */,
+				1FE8124B18A1C533005C635E /* PianoPedal.cpp in Sources */,
+				1FE8123D18A1C533005C635E /* KeyIdleDetector.cpp in Sources */,
+				1FE8124918A1C533005C635E /* PianoKeyboard.cpp in Sources */,
+				1FE8124E18A1C533005C635E /* TouchkeyDevice.cpp in Sources */,
+				1FE8125F18A1C578005C635E /* DrawOSC.m in Sources */,
+				1FE8124F18A1C533005C635E /* IIRFilter.cpp in Sources */,
 				1F843D5B185A5A2E0071C3F7 /* AppDelegate.mm in Sources */,
-				1FBD05D8185F82A000C4E775 /* pianobar.cpp in Sources */,
-				1FBD05B7185EC7D900C4E775 /* AudioOutput.m in Sources */,
+				1FE8124D18A1C533005C635E /* TimestampSynchronizer.cpp in Sources */,
+				1FE8125718A1C558005C635E /* AudioOutput.m in Sources */,
+				1FE8124718A1C533005C635E /* Osc.cpp in Sources */,
+				1FE8125018A1C533005C635E /* Scheduler.cpp in Sources */,
+				1FE8124118A1C533005C635E /* Mapping.cpp in Sources */,
+				1FE8124018A1C533005C635E /* KeyTouchFrame.cpp in Sources */,
+				1FE8124518A1C533005C635E /* MidiInputController.cpp in Sources */,
+				1FE8124618A1C533005C635E /* MidiOutputController.cpp in Sources */,
+				1FE8123E18A1C533005C635E /* KeyPositionGraphDisplay.cpp in Sources */,
+				1FE8124418A1C533005C635E /* TouchkeyVibratoMapping.cpp in Sources */,
+				1FE8123C18A1C533005C635E /* KeyboardDisplay.cpp in Sources */,
+				1FE8123818A1C533005C635E /* tinyxml.cpp in Sources */,
+				1FE8124318A1C533005C635E /* MRPMapping.cpp in Sources */,
+				1FE8125818A1C558005C635E /* Note.m in Sources */,
+				1FE8123A18A1C533005C635E /* tinyxmlparser.cpp in Sources */,
+				1FE8123718A1C533005C635E /* tinystr.cpp in Sources */,
 				1F843D54185A5A2E0071C3F7 /* main.m in Sources */,
+				1FE8124818A1C533005C635E /* PianoKey.cpp in Sources */,
+				1FE8123B18A1C533005C635E /* CustomOpenGLView.mm in Sources */,
+				1FE8124C18A1C533005C635E /* RawSensorDisplay.cpp in Sources */,
+				1FE8125118A1C533005C635E /* Trigger.cpp in Sources */,
+				1FE8123618A1C533005C635E /* RtMidi.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,15 +728,18 @@
 		1F843D76185A5A2E0071C3F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/Jeff/Computering/FrameworkSources/vvopensource-master/build@rpath",
+					/System/Library/Frameworks,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MRP/MRP-Prefix.pch";
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -477,8 +748,14 @@
 				INFOPLIST_FILE = "MRP/MRP-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D__MACOSX_CORE__",
+					"-DTIXML_USE_STL",
+				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -486,15 +763,18 @@
 		1F843D77185A5A2E0071C3F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/Jeff/Computering/FrameworkSources/vvopensource-master/build@rpath",
+					/System/Library/Frameworks,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MRP/MRP-Prefix.pch";
+				GCC_VERSION = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -503,8 +783,14 @@
 				INFOPLIST_FILE = "MRP/MRP-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D__MACOSX_CORE__",
+					"-DTIXML_USE_STL",
+				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

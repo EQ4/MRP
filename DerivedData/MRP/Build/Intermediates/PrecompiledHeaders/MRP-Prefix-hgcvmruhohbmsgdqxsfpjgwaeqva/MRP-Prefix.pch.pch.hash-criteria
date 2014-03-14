@@ -1,0 +1,32 @@
+Contents of /Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/MRP/MRP-Prefix.pch
+-x
+objective-c++
+-arch
+x86_64
+-std=gnu++11
+-stdlib=libstdc++
+-fobjc-arc
+-fpascal-strings
+-O0
+-DDEBUG=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+-fasm-blocks
+-mmacosx-version-min=10.8
+-g
+-fvisibility-inlines-hidden
+-iquote
+-iquote
+-I/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+-I/usr/local/include
+-F/Users/Jeff/Drexel/MET Lab/MRP 2014/MRP/DerivedData/MRP/Build/Products/Debug
+-F/Users/Jeff/Computering/FrameworkSources/vvopensource-master/build@rpath
+-F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks
+-D__MACOSX_CORE__
+-DTIXML_USE_STL
+x86_64-apple-darwin13.0.0
+"4.2.1 Compatible Apple LLVM 5.0 (clang-500.2.79)"
+SDK_PRODUCT_BUILD_VERSION=13A595
+13A595

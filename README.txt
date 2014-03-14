@@ -11,9 +11,15 @@ MRP: Single GUI application with target functionality:
 - Implemented:
 	- OSC
 		- input
-		- basic logging
+		- output
+		- input logging
 	- Touchkeys
 		- Recognize device
+		- User-defined callbacks
+		- Raw data logging
+	- Preferences menu
+		- Logging path
+		- Touchkey calibration path
 
 - To Do:
 	- OSC
@@ -25,8 +31,6 @@ MRP: Single GUI application with target functionality:
 		- MIDI thru
 		- MIDI in to OSC thru
 	- Touchkeys
-		- Touchkeys in
-		- Touchkeys in to OSC thru
 		- Touchkeys in to MIDI thru
 	- Audio
 		- Audio synthesis via AUGraph with selectable audio unit instruments

@@ -31,8 +31,22 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
             endingLineNumber = "15"
-            landmarkName = "class Note"
-            landmarkType = "3">
+            landmarkName = "startTime"
+            landmarkType = "19">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MRP/AppDelegate.mm"
+            timestampString = "416449356.482186"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "916"
+            endingLineNumber = "916">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
